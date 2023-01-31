@@ -1,0 +1,279 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+
+    <title>MaronFIT</title>
+    <link rel="icon" type="image/x-icon" href="./images/dumbbell.ico">
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/b1ab9249ca.js" crossorigin="anonymous"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Roboto&display=swap" rel="stylesheet">
+
+    <style>
+      .f-bebas {
+        font-family: 'Bebas Neue', cursive;
+      }
+      
+      .f-roboto {
+        font-family: 'Roboto', sans-serif;
+      }
+
+      .banner {
+        background-position: center;
+        background-size: cover;
+      }
+
+      .banner > h2 {
+        font-size: 12vmax;
+      }
+
+      .bottom {
+        bottom: 0;
+      }
+
+      .obj-fit {
+        object-fit: cover;
+        object-position: center;
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+
+    <nav class="navbar navbar-expand-lg bg-transparent position-absolute z-3 w-100" data-bs-theme="dark">
+      <div class="container">
+        <a class="navbar-brand d-flex align-items-center gap-2" href="./index.html">
+          <img src="./images/dumbbell.png" alt="Bootstrap" width="30" height="30">
+          MaronFIT
+        </a>
+
+        <button class="navbar-toggler text-white" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+
+        <div class="collapse navbar-collapse d-lg-flex justify-content-between" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Resultados</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Dietas</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link">Planos</a>
+            </li>
+          </ul>
+          <ul class="navbar-nav">
+            <li class="nav-item">
+              <a class="nav-link" href="#">ASSINAR</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">ENTRAR</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <div class="banner position-relative text-white vh-100 d-flex justify-content-center align-items-center" style="background-image: url('./images/young-man-sportswear-exercise-class-gym.jpg');">
+      
+      <h2 class="text-center f-bebas">
+        FIQUE MAROMBA <br>
+        <small>EM 4 SEMANAS!!!</small>
+      </h2>
+
+      <div class="bottom position-absolute text-center w-100 pb-3">
+        <i class="fa-solid fa-angles-down fa-bounce"></i>
+      </div>
+    </div>
+
+    <section class="bg-primary">
+      <div class="container py-5">
+
+        <h3 class="text-white text-center f-roboto mb-5">Veja nossos resultados!!!</h3>
+
+        <div class="row">
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/cheerful-girl-lost-weight-rejoicing-diet-worked.jpg" class="img-fluid obj-fit rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-lg-6">
+            <div class="card mb-3">
+              <div class="row g-0">
+                <div class="col-md-4">
+                  <img src="./images/portrait-woman-showing-her-weight-loss.jpg" class="img-fluid obj-fit rounded-start" alt="...">
+                </div>
+                <div class="col-md-8">
+                  <div class="card-body">
+                    <h5 class="card-title">Card title</h5>
+                    <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                    <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="text-center small text-white mt-4">
+          Resultados de qualidade 100% confiáveis!
+        </div>
+
+      </div>
+    </section>
+
+    <section class="bg-light">
+      <div class="container py-5">
+
+        <h3 class="text-primary text-center f-roboto mb-5">Dietas que acompanham o seu gosto!</h3>
+
+        <div class="d-flex justify-content-center gap-5">
+          <div>
+            <img src="./images/hen.png" class="img-fluid">
+          </div>
+          <div>
+            <img src="./images/pancakes.png" class="img-fluid">
+          </div>
+          <div>
+            <img src="./images/sweet-potato.png" class="img-fluid">
+          </div>
+        </div>
+
+        <div class="text-center small text-primary mt-4">
+          Dietas selecionadas de acordo com seus gostos!
+        </div>
+
+      </div>
+    </section>
+
+    <section>
+      <div class="container py-5">
+
+        <h3 class="text-dark text-center f-roboto mb-5">Confira nossos Planos!</h3>
+
+        <div class="row d-flex justify-content-center">
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center justify-content-center gap-2 mb-3">
+                  <img src="./images/crown.png">
+                  Plano Pro
+                </h5>
+
+                <div class="d-flex justify-content-center">
+                  <div>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                  </div>
+                </div>
+
+                <div class="text-success h1 mt-3 f-bebas text-center">
+                  <small>R$</small> 197,00
+                </div>
+
+                <div class="d-grid mt-3">
+                  <a href="#" class="btn btn-success btn-block">GARANTA JÁ</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="card">
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center justify-content-center gap-2 mb-3">
+                  <img src="./images/badge.png" height="32px">
+                  Plano Premiun
+                </h5>
+
+                <div class="d-flex justify-content-center">
+                  <div>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                  </div>
+                </div>
+
+                <div class="text-primary h1 mt-3 f-bebas text-center">
+                  <small>R$</small> 97,00
+                </div>
+
+                <div class="d-grid mt-3">
+                  <a href="#" class="btn btn-primary btn-block">ADQUIRIR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-4 col-lg-3">
+            <div class="card h-100">
+              <div class="card-body">
+                <h5 class="card-title d-flex align-items-center justify-content-center gap-2 mb-3">
+                  <img src="./images/video-play-button.png" height="24px">
+                  Plano Start
+                </h5>
+
+                <div class="d-flex justify-content-center">
+                  <div>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small fw-bold m-0"><i class="fa-regular fa-circle-check text-success me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                    <p class="small m-0 text-muted"><i class="fa-regular fa-circle me-2"></i>Acesso aos aparelhos</p>
+                  </div>
+                </div>
+
+                <div class="text-muted h1 mt-3 f-bebas text-center">
+                  <small>R$</small> 27,00
+                </div>
+
+                <div class="d-grid mt-3">
+                  <a href="#" class="btn btn-outline-secondary btn-block">COMPRAR</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </section>
+
+    <footer class="bg-dark">
+      <div class="container py-5 text-center">
+        <div class="h1 text-white">Venha visitar!</div>
+        <div class="h3 text-white">Av. Granadeiro Guimarães, 127, Centro, Taubaté/SP</div>
+      </div>
+    </footer>
+
+  </body>
+</html>
